@@ -41,7 +41,24 @@ async def str(client, message: Message, _):
         caption=_["start_2"].format(MUSIC_BOT_NAME),
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("★ Add Me ★", url="https://t.me/I_Love_You_828")]
+                [
+                    InlineKeyboardButton(
+                        "★ Add Me ★", url=f"https://t.me/Shalinixmusicbot?startgroup=true")
+                ],
+                [
+                     InlineKeyboardButton(
+                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="settings_back_helper")
+                ],
+                [
+                    InlineKeyboardButton(
+                        "ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ShaliniMusicBotSh"),
+                    InlineKeyboardButton(
+                        "sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/music_world_sh"),
+                ],    
+                [
+                     InlineKeyboardButton(
+                      "💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞", url=f"https://t.me/shalini_shalu_69")
+                ]
             ]
         )
 )
