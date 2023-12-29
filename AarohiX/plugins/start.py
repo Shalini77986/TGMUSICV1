@@ -28,31 +28,72 @@ from AarohiX.utils.inline import (help_pannel, private_panel,
 
 loop = asyncio.get_running_loop()
 
-YUMI_PICS = [
-    "https://telegra.ph/file/6c885935e50762da25472.jpg",
-    "https://telegra.ph/file/bf8ea432e132ec30cb0c2.jpg",
-    "https://telegra.ph/file/30250b09029076698e4b2.jpg",
-    "https://telegra.ph/file/bce5cfde2ed72fe655e69.jpg",
-    "https://telegra.ph/file/92f3de73c8a0c541dd672.jpg",
-    "https://telegra.ph/file/7145ff6c8877f27bf64ca.jpg",
-    "https://telegra.ph/file/d82e218980ec409672c68.jpg",
-    "https://telegra.ph/file/43693df3a30172b954632.jpg",
-    "https://telegra.ph/file/30b92f86ea0a712f4d0ed.jpg",
-    "https://telegra.ph/file/8cc5b6fe5a047a1ce1cbd.jpg",
-    "https://telegra.ph/file/e2c2fb24469b1b19a0866.jpg",
-    "https://telegra.ph/file/46b596a04f9db8041a9d1.jpg",
-    "https://telegra.ph/file/549ad9de7da164636e201.jpg",
-    "https://telegra.ph/file/2eb793749061146a6037c.jpg",
-    "https://telegra.ph/file/7ce0ef5e9216273b8bc27.jpg",
-    "https://telegra.ph/file/66a8e54145c27468f0c69.jpg",
-    "https://telegra.ph/file/da416ecfcc3e50973172e.jpg",
-    "https://telegra.ph/file/0708854fe104da9e1445e.jpg",
-    "https://telegra.ph/file/48aa2e6b48a32efaf7017.jpg",
-    "https://telegra.ph/file/920b88f2d2b0ccb4e648c.jpg",
-    "https://telegra.ph/file/fda8146fd6b22f9637733.jpg",
-    "https://telegra.ph/file/5417d79b1eea8d122008f.jpg",
-    "https://telegra.ph/file/a43806329815ecc6c2aa3.jpg",
-    "https://telegra.ph/file/7c4bf50287cc170d167c4.jpg"
+SHALINI_PICS = [
+"https://telegra.ph/file/c4896c1bc28dbda543e9a.jpg",
+"https://telegra.ph/file/04ec410a5e098a31ef05c.jpg",
+"https://telegra.ph/file/6d91dbc82b9985dd7f5bd.jpg", 
+"https://telegra.ph/file/742122358afbdce1812aa.jpg",
+"https://telegra.ph/file/9992032cde0ebdc5ce22f.jpg",
+"https://telegra.ph/file/b0678a2763abd78550cb1.jpg",
+"https://telegra.ph/file/08aed3ff4207ab128599c.jpg",
+"https://telegra.ph/file/012b897f0dc2cf5e46dd7.jpg",
+"https://telegra.ph/file/28e8a842f83ef8a936a73.jpg",
+"https://telegra.ph/file/7e2c1b9f00b5d8fa347ec.jpg”,
+"https://telegra.ph/file/b652fb712536b64644cd0.jpg",
+"https://telegra.ph/file/80fb21d13da79f45a6b3c.jpg",
+"https://telegra.ph/file/ebbdac8dbe121ad724a1a.jpg",
+"https://telegra.ph/file/b5baf462b6afbfe11cfd8.jpg",
+"https://telegra.ph/file/2a2c5d6e11611635813c8.jpg",
+"https://telegra.ph/file/2952e480c6748f481acec.jpg",
+"https://telegra.ph/file/4c9c874eb27f47d1744ee.jpg",
+"https://telegra.ph/file/71b4c5143532982fbf326.jpg",
+"https://telegra.ph/file/0e7864982ddd768c0e268.jpg",
+"https://telegra.ph/file/3dbbf7c02a601864333ff.jpg",
+"https://telegra.ph/file/21b828d6f52395fee7347.jpg",
+"https://telegra.ph/file/b1b4860b4bcc63ea06020.jpg",
+"https://telegra.ph/file/efe8d6d5e451eaf2c823b.jpg",
+"https://telegra.ph/file/6915fa51b93f102d728d1.jpg",
+"https://telegra.ph/file/aac96626fff9e97719d99.jpg",
+"https://telegra.ph/file/d9f451277fc14ab8fb046.jpg",
+"https://telegra.ph/file/af76e0e0369877ff9ee96.jpg",
+"https://telegra.ph/file/a62f55e1ee715c5fda49e.jpg",
+"https://telegra.ph/file/e63fad358a31971d0226e.jpg",
+"https://telegra.ph/file/d329dab2265ee38e8596c.jpg",
+"https://telegra.ph/file/8e409dd00351e52c0b832.jpg",
+"https://telegra.ph/file/d81edcb736dd1eb3e3f28.jpg",
+"https://telegra.ph/file/c1e9ea3472d2e88e2cd9e.jpg",
+"https://telegra.ph/file/fce7a6531e493d3f170d2.jpg",
+"https://telegra.ph/file/dac47da8d3c34944d905e.jpg",
+"https://telegra.ph/file/3db89104698f8c59c9f2f.jpg",
+"https://telegra.ph/file/3ab1242f4c692cee890b3.jpg",
+"https://telegra.ph/file/989a133f1a1fa91eef931.jpg",
+"https://telegra.ph/file/2c14b613bfb4e21ddf66b.jpg",
+"https://telegra.ph/file/67e09a6b45f9210db54a7.jpg",
+"https://telegra.ph/file/d36acf08120d275c76555.jpg",
+"https://telegra.ph/file/3f69614121059aba0aa53.jpg",
+"https://telegra.ph/file/a884b01bfd9749edf1e44.jpg",
+"https://telegra.ph/file/6c1b34786d6aa1427aa34.jpg"
+"https://telegra.ph/file/6255f3e1a0d1935d81686.jpg",
+"https://telegra.ph/file/63f82e98e24c5a9c2dc2c.jpg",
+"https://telegra.ph/file/8aa6c354fc55c8aa40e1e.jpg",
+"https://telegra.ph/file/40c70455f620b8a1c5f2b.jpg",
+"https://telegra.ph/file/638e6c6e615f75683c97e.jpg"
+"https://telegra.ph/file/c49862ca13d5f96e1055f.jpg",
+"https://telegra.ph/file/1538811747a6c3c26d0c7.jpg",
+"https://telegra.ph/file/5dc97f410e8886477f45c.jpg",
+"https://telegra.ph/file/df6d158f8cd3a82d1aa81.jpg",
+"https://telegra.ph/file/78ab7d6fcae20817167bb.jpg",
+"https://telegra.ph/file/6a33f6c47069cdcb6699b.jpg",
+"https://telegra.ph/file/3b415bcf9ef3f3c5f71c1.jpg",
+"https://telegra.ph/file/fc150e19584ceb9532b84.jpg",
+"https://telegra.ph/file/52b4f1556b87806118651.jpg",
+"https://telegra.ph/file/31f7ce3848156e77521f7.jpg",
+"https://telegra.ph/file/dc3210c66a61143fe134d.jpg",
+"https://telegra.ph/file/2102f3b08150b2355fa55.jpg",
+"https://telegra.ph/file/3d3d19956d3f62717b7b3.jpg",
+"https://telegra.ph/file/282229aa4ad14450f19f4.jpg",
+"https://telegra.ph/file/c3e4a11ddc59c29c896b5.jpg",
+"https://telegra.ph/file/f2ecb3cc334cb184ceb0a.jpg"
 ]
 
 @app.on_message(
@@ -70,7 +111,7 @@ async def start_comm(client, message: Message, _):
             keyboard = help_pannel(_)
             await message.reply_sticker("CAACAgUAAx0CcSyO9gACl7dkQoL0p1vXqcYtCuCHmSyh4Hi1UgACEwgAAonAEVYwaJ0Jkk8L0B4E")
             return await message.reply_photo(
-                       random.choice(YUMI_PICS),
+                       random.choice(SHALINI_PICS),
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
             )
         if name[0:4] == "song":
@@ -113,7 +154,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/LOVE_FEELINGS_WILL) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/MUSIC_WORLD_SH) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -180,7 +221,6 @@ async def start_comm(client, message: Message, _):
 📎 **ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
 🔗 **ʟɪɴᴋ:** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
 
-**💞🌹ᴀᴀʀᴏʜɪ ɪ ʟᴏᴠᴇ ʏᴏᴜ sᴏ ᴍᴜᴄʜ🌹💞**
 
 || ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ [ᴅɪʟ❣️](https://t.me/Honey_Singh_121) 🥀 ||
 
@@ -223,7 +263,7 @@ async def start_comm(client, message: Message, _):
             try:
                 await message.reply_sticker("CAACAgUAAx0CcSyO9gACl7dkQoL0p1vXqcYtCuCHmSyh4Hi1UgACEwgAAonAEVYwaJ0Jkk8L0B4E")
                 await message.reply_photo(
-                    random.choice(YUMI_PICS),
+                    random.choice(SHALINI_PICS),
                     caption=_["start_2"].format(
                         config.MUSIC_BOT_NAME
                     ),
@@ -259,7 +299,7 @@ async def testbot(client, message: Message, _):
     OWNER = OWNER_ID[0]
     out = start_pannel(_, app.username, OWNER)
     return await message.reply_photo(
-               random.choice(YUMI_PICS),
+               random.choice(SHALINI_PICS),
                caption=_["start_1"].format(
             message.chat.title, config.MUSIC_BOT_NAME
         ),
