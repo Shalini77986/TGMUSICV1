@@ -38,7 +38,6 @@ SHALINI_PICS = [
 "https://telegra.ph/file/08aed3ff4207ab128599c.jpg",
 "https://telegra.ph/file/012b897f0dc2cf5e46dd7.jpg",
 "https://telegra.ph/file/28e8a842f83ef8a936a73.jpg",
-"https://telegra.ph/file/7e2c1b9f00b5d8fa347ec.jpg”,
 "https://telegra.ph/file/b652fb712536b64644cd0.jpg",
 "https://telegra.ph/file/80fb21d13da79f45a6b3c.jpg",
 "https://telegra.ph/file/ebbdac8dbe121ad724a1a.jpg",
